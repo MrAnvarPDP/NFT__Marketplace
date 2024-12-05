@@ -1,0 +1,101 @@
+.trending {
+    padding: 80px 117px;
+}
+.trending__wrapper {
+}
+.trending__header {
+    margin-left: 100px;
+}
+.trending__title {
+//styleName: H3 - Work Sans;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 600;
+line-height: 45.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+}
+.trending__text {
+   //styleName: Body Text- Work Sans;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.trending__ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.trending__item {
+}
+.trending__img {
+    transition: all ease 0.6s;
+    cursor: pointer;
+}
+.trending__img:hover {
+    transform: scale(0.9);
+}
+.trending__div {
+    display: flex;
+    gap: 15px;
+}
+.trending__p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 330px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #fff;
+}
+.trending__profile {
+    display: flex;
+    gap: 12px;
+}
+.trending__pfp {
+}
+.trending__nickname {
+    width: 294px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width:480px){
+    .none {
+        display: none;
+    }
+    .none2 {
+        display: none;
+    }
+    .trending__img {
+        max-width: 100%;
+    }
+    .trending__item {
+        padding: 0 30px ;
+    }
+    .trending {
+        padding: 30px;
+    }
+    .trending__header{
+       padding: 30px;
+    }
+    .trending__title {
+        white-space: nowrap;
+    }
+    .trending__text {
+        width: 315px;
+    }
+}
