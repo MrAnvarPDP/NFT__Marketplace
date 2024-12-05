@@ -51,11 +51,14 @@ color: #fff;
     gap: 15px;
 }
 .trending__p {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    width: 330px;
-    font-weight: 600;
-    font-size: 22px;
+//styleName: H5 - Work Sans;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
     color: #fff;
 }
 .trending__profile {
@@ -65,9 +68,15 @@ color: #fff;
 .trending__pfp {
 }
 .trending__nickname {
-    width: 294px;
-    font-weight: 400;
-    font-size: 16px;
+  //styleName: Base(Body) - Work Sans;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
     color: #fff;
 }
 
