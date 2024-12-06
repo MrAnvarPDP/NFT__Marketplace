@@ -1,155 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NFT Mrketplace</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" type="img/x-icon" href="./imgs/Storefront.svg" />
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Mrketplace</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="img/x-icon" href="./imgs/Storefront.svg" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="imgs">
+          <img src="./imgs/Logo.svg" alt="" class="header__logo" />
+        </div>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a href="#" class="header__link">Marketplace</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Rankings</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Connect a wallet</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <div class="btn header__btn">Sign Up</div>
+            </a>
+          </li>
+        </ul>
+        <img src="./imgs/nav menu.svg" alt="" class="burger__btn" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="discover">
       <div class="container">
-        <div class="header__wrapper">
-          <div class="imgs">
-            <img src="./imgs/Logo.svg" alt="" class="header__logo" />
+        <div class="discover__wrapper">
+          <div class="discover__info">
+            <h2 class="discover__title">
+              Discover <br />
+              digital art & <br />
+              Collect NFTs
+            </h2>
+            <p class="discover__text">
+              NFT Marketplace UI Created With Anima For <br />
+              Figma. Collect, Buy And Sell Art From More <br />
+              Than 20k NFT Artists.
+            </p>
+            <button class="discover__btn">Get Started</button>
+            <ul class="discover__price">
+              <li class="discover__item">
+                <h3>240k+</h3>
+                <p>Total Sale</p>
+              </li>
+              <li class="discover__item">
+                <h3>100k+</h3>
+                <p>Auctions</p>
+              </li>
+              <li class="discover__item">
+                <h3>240k+</h3>
+                <p>Artists</p>
+              </li>
+            </ul>
           </div>
-          <ul class="header__menu">
-            <li class="header__item">
-              <a href="#" class="header__link">Marketplace</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Rankings</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link">Connect a wallet</a>
-            </li>
-            <li class="header__item">
-              <a href="#" class="header__link"
-                ><div class="btn header__btn">Sign Up</div></a
-              >
-            </li>
-          </ul>
-          <img src="./imgs/nav menu.svg" alt="" class="burger__btn" />
+          <img src="./imgs/Highlighted NFT.svg" alt="" class="discover__img" />
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="discover">
-        <div class="container">
-          <div class="discover__wrapper">
-            <div class="discover__info">
-              <h2 class="discover__title">
-                Discover <br />
-                digital art & <br />
-                Collect NFTs
-              </h2>
-              <p class="discover__text">
-                NFT Marketplace UI Created With Anima For <br />
-                Figma. Collect, Buy And Sell Art From More <br />
-                Than 20k NFT Artists.
-              </p>
-              <button class="discover__btn">Get Started</button>
-              <ul class="discover__price">
-                <li class="discover__item">
-                  <h3>240k+</h3>
-                  <p>Total Sale</p>
-                </li>
-                <li class="discover__item">
-                  <h3>100k+</h3>
-                  <p>Auctions</p>
-                </li>
-                <li class="discover__item">
-                  <h3>240k+</h3>
-                  <p>Artists</p>
-                </li>
-              </ul>
-            </div>
-            <img
-              src="./imgs/Highlighted NFT.svg"
-              alt=""
-              class="discover__img"
-            />
+
+
+    <section class="trending">
+      <div class="container">
+        <div class="trending__wrapper">
+          <div class="trending__header">
+            <strong class="trending__title">Trending Collection</strong>
+            <p class="trending__text">Checkout our weekly updated trending collection.</p>
           </div>
+
+
+          <ul class="trending__ul">
+            <li class="trending__item">
+              <img src="./imgs/it.png" alt="" class="trending__img">
+
+              <div class="trending__div">
+                <img src="./imgs/mushi.png" alt="" class="trending__img">
+                <img src="./imgs/balu.png" alt="" class="trending__img">
+                <img src="./imgs/more.svg" alt="" class="trending__img">
+              </div>
+
+              <p class="trending__p">DSGN Animals</p>
+
+              <div class="trending__profile">
+                <img src="./imgs/MrFox.png" alt="" class="trending__pfp">
+                <p class="trending__nickname">MrFox</p>
+              </div>
+            </li>
+
+
+            <li class="trending__item none">
+              <img src="./imgs/Mushroom1.png" alt="" class="trending__img none">
+
+              <div class="trending__div">
+                <img src="./imgs/Mushroom2.png" alt="" class="trending__img">
+                <img src="./imgs/Mushroom3.png" alt="" class="trending__img">
+                <img src="./imgs/more.svg" alt="" class="trending__img">
+              </div>
+
+              <p class="trending__p">Magical Mushrooms</p>
+
+              <div class="trending__profile">
+                <img src="./imgs/Avatar.png" alt="" class="trending__pfp">
+                <p class="trending__nickname">Shroomie</p>
+              </div>
+            </li>
+
+
+
+            <li class="trending__item none2">
+              <img src="./imgs/bot1.png" alt="" class="trending__img">
+
+              <div class="trending__div">
+                <img src="./imgs/bot2.png" alt="" class="trending__img">
+                <img src="./imgs/bot3.png" alt="" class="trending__img">
+                <img src="./imgs/more.svg" alt="" class="trending__img">
+              </div>
+
+              <p class="trending__p">Disco Machines</p>
+
+              <div class="trending__profile">
+                <img src="./imgs/Bumblbee.png" alt="" class="trending__pfp">
+                <p class="trending__nickname">BeKind2Robots</p>
+              </div>
+            </li>
+          </ul>
         </div>
-      </section>
-
-
-
-      <section class="trending">
-        <div class="container">
-            <div class="trending__wrapper">
-                <div class="trending__header">
-                    <strong class="trending__title">Trending Collection</strong>
-                    <p class="trending__text">Checkout our weekly updated trending collection.</p>
-                </div>
-
-
-                <ul class="trending__ul">
-                    <li class="trending__item">
-                        <img src="./imgs/it.png" alt="" class="trending__img">
-
-                        <div class="trending__div">
-                            <img src="./imgs/mushi.png" alt="" class="trending__img">
-                            <img src="./imgs/balu.png" alt="" class="trending__img">
-                            <img src="./imgs/more.svg" alt="" class="trending__img">
-                        </div>
-
-                        <p class="trending__p">DSGN Animals</p>
-
-                        <div class="trending__profile">
-                            <img src="./imgs/MrFox.png" alt="" class="trending__pfp">
-                            <p class="trending__nickname">MrFox</p>
-                        </div>
-                    </li>
-
-
-                    <li class="trending__item none">
-                      <img src="./imgs/Mushroom1.png" alt="" class="trending__img none">
-
-                      <div class="trending__div">
-                          <img src="./imgs/Mushroom2.png" alt="" class="trending__img">
-                          <img src="./imgs/Mushroom3.png" alt="" class="trending__img">
-                          <img src="./imgs/more.svg" alt="" class="trending__img">
-                      </div>
-
-                      <p class="trending__p">Magical Mushrooms</p>
-
-                      <div class="trending__profile">
-                          <img src="./imgs/Avatar.png" alt="" class="trending__pfp">
-                          <p class="trending__nickname">Shroomie</p>
-                      </div>
-                  </li>
-
-
-
-                  <li class="trending__item none2">
-                    <img src="./imgs/bot1.png" alt="" class="trending__img">
-
-                    <div class="trending__div">
-                        <img src="./imgs/bot2.png" alt="" class="trending__img">
-                        <img src="./imgs/bot3.png" alt="" class="trending__img">
-                        <img src="./imgs/more.svg" alt="" class="trending__img">
-                    </div>
-
-                    <p class="trending__p">Disco Machines</p>
-
-                    <div class="trending__profile">
-                        <img src="./imgs/Bumblbee.png" alt="" class="trending__pfp">
-                        <p class="trending__nickname">BeKind2Robots</p>   
-                    </div>
-                </li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </section>
 
 
 
 
 
-    
-    </main>
-  </body>
+    <section class="morenft">
+      <div class="container">
+        <div class="morenft__wrapper">
+          <div class="morenft__header">
+            <div class="morenft__titles">
+              <strong class="morenft__title">Discover More NFTs</strong>
+              <p class="morenft__text">Explore new trending NFTs</p>
+            </div>
+
+
+            <button class="morenft__btn"><a href="#" class="morenft__link">See All</a></button>
+          </div>
+
+
+          <ul class="morenft__ul">
+
+
+            <li class="morenft__item">
+              <img src="./imgs/spaceship1.png" alt="" class="morenft__img">
+
+              <strong class="morenft__strong">Distant Galaxy</strong>
+
+              <div class="morenft__box">
+                <img src="./imgs/qizbola.png" alt="" class="morenft__pfp">
+                <p class="morenft__nick">MoonDancer</p>
+              </div>
+
+              <ul class="morenft__prices">
+                <li class="prices__li">
+                  <p class="prices__p">Price</p>
+                  <p class="prices__text">1.63 ETH</p>
+                </li>
+
+                <li class="prices__li">
+                  <p class="prices__p">Highest Bid</p>
+                  <p class="prices__text">0.33 wETH</p>
+                </li>
+              </ul>
+            </li>
+
+
+
+            <li class="morenft__item">
+              <img src="./imgs/edena2.png" alt="" class="morenft__img">
+
+              <strong class="morenft__strong">Life On Edena</strong>
+
+              <div class="morenft__box">
+                <img src="./imgs/diddy.png" alt="" class="morenft__pfp">
+                <p class="morenft__nick">NebulaKid</p>
+              </div>
+
+              <ul class="morenft__prices">
+                <li class="prices__li">
+                  <p class="prices__p">Price</p>
+                  <p class="prices__text">1.63 ETH</p>
+                </li>
+
+                <li class="prices__li">
+                  <p class="prices__p">Highest Bid</p>
+                  <p class="prices__text">0.33 wETH</p>
+                </li>
+              </ul>
+            </li>
+
+
+
+
+
+            <li class="morenft__item">
+              <img src="./imgs/astronaut.png" alt="" class="morenft__img">
+
+              <strong class="morenft__strong">AstroFiction</strong>
+
+              <div class="morenft__box">
+                <img src="./imgs/g'ilay_opa.png" alt="" class="morenft__pfp">
+                <p class="morenft__nick">Spaceone</p>
+              </div>
+
+              <ul class="morenft__prices">
+                <li class="prices__li">
+                  <p class="prices__p">Price</p>
+                  <p class="prices__text">1.63 ETH</p>
+                </li>
+
+                <li class="prices__li">
+                  <p class="prices__p">Highest Bid</p>
+                  <p class="prices__text">0.33 wETH</p>
+                </li>
+              </ul>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

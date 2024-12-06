@@ -272,6 +272,7 @@ a {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+  margin-top: 15px;
   color: #fff;
 }
 
@@ -313,8 +314,177 @@ a {
   }
   .trending__title {
     white-space: nowrap;
+    margin-left: -120px;
   }
   .trending__text {
-    width: 315px;
+    margin-left: -120px;
+  }
+}
+.morenft__wrapper {
+  margin-top: 80px;
+}
+
+.morenft__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.morenft__ul {
+  margin-bottom: 80px;
+}
+
+.morenft__title {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.morenft__text {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.morenft__btn {
+  border: 1px solid #A259FF;
+  background-color: transparent;
+  border-radius: 20px;
+  width: 187px;
+  height: 60px;
+}
+
+.morenft__link {
+  width: 55px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.morenft__ul {
+  display: flex;
+  gap: 30px;
+}
+
+.morenft__item {
+  border: 1px solid transparent;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  transition: all ease 0.6s;
+  cursor: pointer;
+}
+
+.morenft__item:hover {
+  transform: scale(0.9);
+}
+
+.morenft__img {
+  margin-bottom: 20px;
+}
+
+.morenft__strong {
+  margin-left: 30px;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.morenft__box {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 12px;
+  margin-left: 30px;
+}
+
+.morenft__pfp {
+  width: 24px;
+  height: 24px;
+}
+
+.morenft__nick {
+  width: 324;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.morenft__prices {
+  display: flex;
+  gap: 41px;
+  margin-left: 30px;
+}
+
+.prices__li {
+  padding-bottom: 25px;
+}
+
+.prices__p {
+  width: 159px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #858584;
+  font-family: Space Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.prices__text {
+  margin-top: 8px;
+  width: 159px;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  .morenft__ul {
+    display: inline-block;
+    margin: 15px;
+  }
+  .morenft__item {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
