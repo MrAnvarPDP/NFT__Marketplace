@@ -207,6 +207,233 @@ a {
     justify-content: center;
   }
 }
+.shadow {
+  display: inline-block;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 49px 47px;
+  display: flex;
+  gap: 20px;
+}
+
+.section__wrapper {
+  max-width: 100%;
+}
+
+body {
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.item:hover {
+  color: white;
+  transition: all ease 0.6s;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.item {
+  border-radius: 20px;
+  padding: 49px 47px;
+  background-color: #3B3B3B;
+  width: 330px;
+  height: 439px;
+  padding: 10px 30px 30px 30px;
+  text-align: center;
+}
+
+.h1-ota {
+  text-align: center;
+  display: flex;
+  width: 501px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-title {
+  color: #ffffff;
+}
+
+.item-text {
+  color: #ffffff;
+}
+
+.art__title {
+  margin-top: 80px;
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.art__wrapper {
+  margin-left: 115px;
+}
+
+.art__img-father {
+  margin-top: 60px;
+  gap: px;
+  display: flex;
+}
+
+.category {
+  margin: 0 auto;
+}
+
+.art__img {
+  transition: all ease 0.6s;
+  cursor: pointer;
+}
+
+.art__img:hover {
+  transform: scale(0.9);
+}
+
+.creator__wrapper {
+  margin-left: 115px;
+  margin-top: 80px;
+}
+
+.creator__title {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.creator__text {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.creator__title-2 {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.creator__text-2 {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.creator__img {
+  margin-left: 110px;
+}
+
+.creator__btn {
+  width: 247px;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  background-color: #2B2B2B;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  transition: all ease 0.6s;
+  cursor: pointer;
+}
+
+.creator__btn:hover {
+  transform: scale(0.9);
+}
+
+.creator__imgs {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.creator__people {
+  transition: all ease 0.6s;
+  cursor: pointer;
+}
+
+.creator__people:hover {
+  transform: scale(0.9);
+}
+
+.phone__people {
+  display: none;
+}
+
+.section__wrapper {
+  margin-left: 120px;
+}
+
+@media only screen and (max-width: 480px) {
+  .list {
+    flex-wrap: wrap-reverse;
+  }
+  .creator__info__imgs {
+    flex-wrap: wrap-reverse;
+  }
+  .art__title {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+    margin-top: 40px;
+    color: #ffffff;
+  }
+  .art__img-father {
+    flex-wrap: wrap;
+  }
+  .art__wrapper {
+    margin-left: 120px;
+  }
+  .creator__people {
+    display: none;
+  }
+  .phone__people {
+    display: block;
+  }
+  .creator__btn {
+    display: none;
+  }
+}
 .footer {
   background-color: #3b3b3b;
   display: flex;
